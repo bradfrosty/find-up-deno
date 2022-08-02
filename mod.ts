@@ -1,5 +1,5 @@
 import { resolve } from 'https://deno.land/std@0.150.0/path/mod.ts';
-import { basename, dirname } from 'https://deno.land/std@0.150.0/path/win32.ts';
+import { basename, dirname } from 'https://deno.land/std@0.150.0/path/mod.ts';
 
 export interface Options {
   stopAt?: string;
