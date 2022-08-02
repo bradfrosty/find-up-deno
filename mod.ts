@@ -8,7 +8,6 @@ export interface Options {
 export async function findUp(name: string, options: Options = {}): Promise<string | undefined> {
   const stopAtResolved = resolve(options.stopAt ?? '/');
   const nameResolved = resolve(name);
-  console.log(stopAtResolved);
 
   try {
     await Deno.stat(name);
